@@ -2,7 +2,7 @@
 pkgs.mkShell {
   buildInputs = with pkgs; [
     cmake
-    wxGTK31
+    wxGTK31-gtk3
     rocm-opencl-runtime
   ];
 }
