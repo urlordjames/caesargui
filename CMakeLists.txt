@@ -24,3 +24,5 @@ target_link_libraries(${PROJECT_NAME} ${OpenCL_LIBRARY})
 
 # link wxWidgets
 target_link_libraries(${PROJECT_NAME} ${wxWidgets_LIBRARIES})
+
+configure_file(src/caesar.cl ${CMAKE_CURRENT_BINARY_DIR}/caesar.cl COPYONLY)
